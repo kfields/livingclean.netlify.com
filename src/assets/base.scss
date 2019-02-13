@@ -1,0 +1,57 @@
+
+.fa-icon {
+  margin-left: .25em;
+  margin-right: .25em;
+}
+.simpleicon svg {
+  height: 1.5em;
+  width: 1.5em;
+}
+.nav-logo {
+  margin-right: 1em;
+}
+.nav-brand {
+  font-family: "typeface-lobster";
+}
+.hero-brand {
+  font-family: "typeface-lobster";
+}
+
+
+body {
+  margin: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+  padding: 0 0 0 0;
+}
+
+.wrapper {
+  width: calc(100% - 10vmin);
+  margin: 0 auto;
+  padding: 5vmin 0;
+}
+
+.article-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5vmin;
+}
+
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+}
