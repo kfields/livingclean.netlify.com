@@ -32,9 +32,10 @@ export default {
 .preview {
   padding-bottom: 1rem;
 }
-.previewTitle {
+h3.previewTitle {
   margin-top: .5rem;
   margin-bottom: .5rem;
+  font-weight: 400 !important;
 }
 .previewImage {
   max-height: 200px;
