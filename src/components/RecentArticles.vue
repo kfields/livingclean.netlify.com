@@ -1,8 +1,8 @@
 <template>
   <section class="section">
-    <heading>
+    <header>
       <h2>Recent Posts</h2>
-    </heading>
+    </header>
     <ul class="article-list">
       <li v-for="edge in $static.posts.edges" :key="edge.id">
         <ArticlePreview :article="edge.node" />

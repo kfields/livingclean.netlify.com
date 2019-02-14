@@ -36,7 +36,6 @@ export default {
   font-size: 1.5rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
-  // line-height: 1rem;
 }
 .previewImage {
   max-height: 200px;
