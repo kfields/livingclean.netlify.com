@@ -1,8 +1,7 @@
 <template>
   <div class="hero">
-    <img class="heroImage" alt="Living Clean" src="bkgrnd.jpeg" />
-    <div class="heroDetails wrapper">
-      <h1 class="heroHeadline">Living Clean</h1>
+    <div class="wrapper">
+      <h1 class="">Living Clean</h1>
       <p class="heroTitle">Fraternity &middot; Serenity &middot; Sobriety</p>
       <p>Sober Living</p>
     </div>
