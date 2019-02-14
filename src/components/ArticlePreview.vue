@@ -1,19 +1,21 @@
 <template>
-  <div class="preview">
+  <div class="card preview">
     <g-link :to="`/blog/${article.slug}`" >
-      <div class="previewImage">
+      <div class="card-image previewImage">
         <Fluid :alt="article.title" :src="article.heroImage.file.url.src"/>
       </div>
-      <h3 class="previewTitle">
-        {{article.title}}
-      </h3>
-      <p>
-        {{article.description}}
-      <p/>
+      <div class="card-content">
+        <h3 class="previewTitle">
+          {{article.title}}
+        </h3>
+        <p>
+          {{article.description}}
+        <p/>
+        <div class="previewDate">
+          <small class="previewDate">{{article.publishDate}}</small>
+        </div>
+      </div>
     </g-link>
-    <div class="previewDate">
-      <small class="previewDate">{{article.publishDate}}</small>
-    </div>
   </div>
 </template>
 <script>
