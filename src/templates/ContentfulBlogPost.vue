@@ -4,8 +4,8 @@
           <Fluid alt :src="$page.post.heroImage.file.url.src"/>
       <div class="section">
         <div>
-          <h1>{{$page.post.title}}</h1>
           <small style="display: block; text-align:right">{{$page.post.publishDate}}</small>
+          <h1>{{$page.post.title}}</h1>
         </div>
         <div v-html="markdown"/>
       </div>

@@ -5,15 +5,15 @@
         <Fluid :alt="article.title" :src="article.heroImage.file.url.src"/>
       </div>
       <div class="card-content">
+        <div class="previewDate">
+          <small>{{article.publishDate}}</small>
+        </div>
         <h3 class="previewTitle">
           {{article.title}}
         </h3>
         <p>
           {{article.description}}
         <p/>
-        <div class="previewDate">
-          <small class="previewDate">{{article.publishDate}}</small>
-        </div>
       </div>
     </g-link>
   </div>
