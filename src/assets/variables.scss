@@ -1,7 +1,9 @@
 // Set your colors
-$primary: #18453B;
-$primary-invert: findColorInvert($primary);
+//$primary: #8c67ef;
+//$primary-invert: findColorInvert($primary);
+$msu-green: #18453B;
 $twitter: #4099FF;
+$msu-green-invert: findColorInvert($msu-green);
 $twitter-invert: findColorInvert($twitter);
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
@@ -10,7 +12,8 @@ $colors: (
     "black": ($black, $white),
     "light": ($light, $light-invert),
     "dark": ($dark, $dark-invert),
-    "primary": ($primary, $primary-invert),
+    // "primary": ($primary, $primary-invert),
+    "primary": ($msu-green, $msu-green-invert),
     "info": ($info, $info-invert),
     "success": ($success, $success-invert),
     "warning": ($warning, $warning-invert),
@@ -23,7 +26,7 @@ $colors: (
 $link: $black;
 // $link-invert: $primary-invert;
 $link-invert: $primary;
-$link-focus-border: $primary;
-// $link-focus-border: $black;
+//$link-focus-border: $primary;
+$link-focus-border: $black;
 //
 $variable-columns: false;

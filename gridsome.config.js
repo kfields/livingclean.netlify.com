@@ -79,7 +79,8 @@ module.exports = {
         description: 'Fraternity, Serenity, Sobriety',
         start_url: '.',
         background_color: '#ffffff',
-        theme_color: '#18453B', //MSU Green
+        // theme_color: '#18453B', //MSU Green
+        theme_color: '#000000',
         crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
         fingerprints: false,
         icons: [
