@@ -1,6 +1,6 @@
 // Set your colors
-//$primary: #8c67ef;
-//$primary-invert: findColorInvert($primary);
+$primary: #18453B;
+$primary-invert: findColorInvert($primary);
 $twitter: #4099FF;
 $twitter-invert: findColorInvert($twitter);
 
@@ -19,10 +19,10 @@ $colors: (
 );
 
 // Links
-// $link: $primary;
-$link: $black;
-// $link-invert: $primary-invert;
-$link-invert: $primary;
+$link: $primary;
+// $link: $black;
+$link-invert: $primary-invert;
+// $link-invert: $primary;
 //$link-focus-border: $primary;
 $link-focus-border: $black;
 //
