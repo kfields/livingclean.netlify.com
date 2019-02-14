@@ -1,12 +1,12 @@
 <template>
-  <div class="wrapper">
+  <section class="section">
     <h2>Recent Posts</h2>
     <ul class="article-list">
       <li v-for="edge in $static.posts.edges" :key="edge.id">
         <ArticlePreview :article="edge.node" />
       </li>
     </ul>
-  </div>
+  </section>
 </template>
 <static-query>
   query HomeQuery {

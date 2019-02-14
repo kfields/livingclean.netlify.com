@@ -2,10 +2,10 @@
   <Layout>
     <article>
           <Fluid alt :src="$page.post.heroImage.file.url.src"/>
-      <div class="wrapper">
+      <div class="section">
         <div>
           <h1>{{$page.post.title}}</h1>
-          <p style="display: block">{{$page.post.publishDate}}</p>
+          <p style="display: block; text-align:right">{{$page.post.publishDate}}</p>
         </div>
         <div v-html="markdown"/>
       </div>
@@ -55,11 +55,6 @@ export default {
 };
 </script>
 <style>
-article .wrapper {
-  width: calc(100% - 10vmin);
-  margin: 0 auto;
-  padding: 5vmin 0;
-}
 article ul {
   list-style: disc inside;
   margin-bottom: 1rem;

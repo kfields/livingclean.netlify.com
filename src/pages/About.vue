@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="wrapper">
+    <div class="section">
       <h1>About</h1>
       <p>
         Here at living clean we believe in a safe structured sober living environment.
