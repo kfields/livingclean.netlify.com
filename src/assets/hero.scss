@@ -25,6 +25,20 @@
 
 }
 
+.heroHeadline {
+  text-shadow: 2px 2px 4px #000000;
+  margin: .5rem;
+}
+
+.heroTitle {
+  margin: .5rem;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  border-style: solid none;
+  border-width: 1px, 0px, 1px, 0px;
+}
+
 .heroDetails {
   height: 85%;
   width: 80%;
@@ -47,17 +61,4 @@
   .heroDetails {
     font-size: 20px;
   }
-}
-
-.heroHeadline {
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.heroTitle {
-  margin: .5rem;
-  font-size: 1.125em;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px #000000;
-  border-style: solid none;
-  border-width: 1px, 0px, 1px, 0px;
 }
