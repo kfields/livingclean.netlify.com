@@ -1,11 +1,7 @@
 <template>
   <Layout>
     <article>
-      <div class="hero">
-        <div class="heroImage">
-          <Fluid alt :src="$page.post.heroImage.file.url.src" :width="1920"/>
-        </div>
-      </div>
+          <Fluid alt :src="$page.post.heroImage.file.url.src"/>
       <div class="wrapper">
         <div>
           <h1>{{$page.post.title}}</h1>
