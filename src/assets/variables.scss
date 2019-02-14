@@ -1,6 +1,6 @@
 // Set your colors
-//$primary: #8c67ef;
-//$primary-invert: findColorInvert($primary);
+$primary: #000000;
+$primary-invert: findColorInvert($primary);
 $msu-green: #18453B;
 $twitter: #4099FF;
 $msu-green-invert: findColorInvert($msu-green);
@@ -22,10 +22,8 @@ $colors: (
 );
 
 // Links
-// $link: $primary;
-$link: $black;
-// $link-invert: $primary-invert;
-$link-invert: $primary;
+$link: #4a4a4a;
+$link-invert: $msu-green;
 //$link-focus-border: $primary;
 $link-focus-border: $black;
 //

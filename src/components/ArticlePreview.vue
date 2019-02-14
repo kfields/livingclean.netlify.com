@@ -37,7 +37,6 @@ export default {
 h3.previewTitle {
   margin-top: .5rem;
   margin-bottom: .5rem;
-  font-weight: 400 !important;
 }
 .previewImage {
   max-height: 200px;
@@ -49,14 +48,4 @@ h3.previewTitle {
   text-align: right;
 }
 
-.tag {
-  color: #A0A0A0;
-  text-decoration: none;
-  display: inline-block;
-  padding: .33333rem .5rem;
-  line-height: 1;
-  border-radius: 2px;
-  border: 1px solid #A0A0A0;
-  margin-right: .5em;
-}
 </style>
