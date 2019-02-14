@@ -5,7 +5,7 @@
       <div class="section">
         <div>
           <h1>{{$page.post.title}}</h1>
-          <p style="display: block; text-align:right">{{$page.post.publishDate}}</p>
+          <small style="display: block; text-align:right">{{$page.post.publishDate}}</small>
         </div>
         <div v-html="markdown"/>
       </div>

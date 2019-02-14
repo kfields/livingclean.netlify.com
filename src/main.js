@@ -24,7 +24,8 @@ export default function (Vue, context) {
   }
   head.meta.push({
     name: 'theme-color',
-    content: '#18453B' //MSU Green
+    //content: '#18453B' //MSU Green
+    content: '#000000' //MSU Green
   })
   //todo:fix so this won't run in dev mode
   /*if(isClient) {
