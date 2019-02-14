@@ -3,7 +3,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          <span style="font-size: 1.5em; margin-right:1em">Living Clean</span>
+          <span style="font-family:'Lobster';font-size: 1.5em; margin-right:1em">Living Clean</span>
           <v-icon name="coffee"/>
         </a>
         
