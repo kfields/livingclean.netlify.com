@@ -1,6 +1,11 @@
 <template>
   <Layout>
-    <Articles/>
+    <main>
+      <section class="section">
+        <h1>Blog</h1>
+      </section>
+      <Articles/>
+    </main>
   </Layout>
 </template>
 
@@ -9,6 +14,6 @@ import Articles from '~/components/Articles'
 export default {
   components: {
     Articles
-  },
+  }
 }
 </script>
