@@ -22,9 +22,14 @@
   font-family: "typeface-lobster";
 }
 
-
-body {
-  margin: 0;
+main .section {
+  padding: 0rem 1.5rem
+}
+main .section:first-child {
+  padding: 3rem 1.5rem
+}
+main .section:last-child {
+  padding: 0rem 1.5rem 3rem 1.5rem
 }
 
 .footer {
